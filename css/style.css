@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+  font-size: 14px;
+  line-height: 1.7em;
+  font-family: "Poppins", serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.header{
+    padding: 10px 0px;
+    width: 100%;
+    background-color: #f0fff0;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin: 0px 10px;
+    font-family: "Poppins", serif;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(255, 242, 0);
+    color: rgb(4, 218, 22);
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .btn-success{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 20px;
+    border-radius: 40px;
+    background-color: #21b573;
+    color: #ffff;
+    border-radius: 1px solid #5fbb5f;
+    margin: 0px 0px 0px 16px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .btn-success:hover{
+    cursor: pointer;
+    background-color: #d0c94a;
+    color: #ffff;
+    border-radius: 1px solid #5fbb5f;
+    transition: 1s;
+
+}
+.banner{
+    width: 100%;
+    
+}
+.banner .inerbanner{
+    margin: 40px 0px;
+}
+.banner .inerbanner h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #fd511a;
+}
+.banner .inerbanner h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #000;
+}
+.banner .inerbanner h1 span{
+    color: #21b573;
+}
+.banner .inerbanner p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7em;
+}
+.banner .img{
+    text-align: right;
+}
+.banner .inerbanner .btn-success{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 25px;
+    border-radius: 40px;
+    background-color: #21b573;
+    color: #ffff;
+    border-radius: 1px solid #5fbb5f;
+}
+.banner .inerbanner .btn-success:hover{
+    cursor: pointer;
+    background-color: #d0c94a;
+    color: #ffff;
+    border-radius: 1px solid #5fbb5f;
+    transition: 1s;
+
+}
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .iner-feature{
+    width: 100%;
+    padding: 60px 40px;
+    text-align: center;
+    background: #f8FFFB;
+     transition: 1s;
+}
+.feature .iner-feature img{
+    width: 66px;
+    height: 85px;
+    margin: 0px 0px 25px;
+}
+.feature .iner-feature h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #000;
+    
+}
+.feature .iner-feature p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #585859;
+    
+}
+.feature .iner-feature:hover{
+    background: #fff;
+    box-shadow: 0px 20px 40px rgb(0,0,0.1);
+}
+.Online-Courses{
+    width: 100%;
+    
+}
+.Online-Courses .title{
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    color: #200;
+    line-height: 1.4em;
+    margin: 0px 0px 40px;
+}
+.Online-Courses .card{
+    padding: 15px;
+    box-shadow: 0px 20px 40px rgb(0,0,0.1);
+    border: 0px;
+    border-radius: 10px;
+}
+.Online-Courses .card-body{
+    padding: 10px 0px;
+
+}
+.Online-Courses .card-body .card-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #000;
+    margin: 10px 0px 5px;
+    text-transform: uppercase;
+}
+.Online-Courses .card-body .card-title .card-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #585859;
+    margin: 10px 0px 5px;
+    
+}
+.Online-Courses .card-body .btn-success{
+    font-size: 16px;
+    padding: 0px 25px;
+    border-radius: 30px;
+    color: #fff;
+    background: #21b573;
+    border: 1px solid #21b573;
+    margin: 0px;
+}
+.Online-Courses .card-body .btn-success:hover{
+    color: #21b573;
+    background: #fff;
+}
+.Online-Courses .card-body .info{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #585859;
+    margin: 10px 0px 5px;
+}
+.Online-Courses .card-body .info img{
+    width: 14px;
+    margin: 5px;
+}
+.text-right{
+    text-align: right;
+}
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testimonial .title{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #000;
+    text-align: center;
+    margin: 0px 0px 25px;
+}
+.testimonial .client{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.testimonial .textrt{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin: 18px 0px 0px;
+}
+.footer {
+    width: 100%;
+    padding: 60px 0px 0px;
+    background-color: #282531;
+    margin: 0px;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #ffff;
+}
+.footer h5{
+    font-size: 20px;
+    font-weight: 600;
+    list-style: 1.2em;
+    color: whie;
+    color: #ffff;
+}
+.footer .navbar-nav{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #ffff;
+}
+.footer .fotter-end p{
+    font-size: 16px;
+    padding: 40px 0px 0px;
+    text-align: center;
+}
